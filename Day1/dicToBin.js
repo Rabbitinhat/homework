@@ -28,7 +28,3 @@ function b(num, n){
 }
 
 console.log(b(0.14, 10));
-
-2.toString(2)
-
-3.14.toString(2)
