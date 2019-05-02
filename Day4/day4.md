@@ -31,3 +31,4 @@ flow
 
 * Ctrl+K Ctrl+M 切换program language
 * Delete 删除光标右边的字符
+* setting add `"editor ruler": [ 80 ]`
