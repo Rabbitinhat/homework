@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  /* 存在以de-开头的类名 */
+  /* i表示对大小写不敏感 */
+  *[class^="de-", i],
+  *[class*=" de-"] {
+    /* do something */ 
+  }
+
+  /* 存在以-ui结尾的类名 */
+  *[class$="-ui"], *[class*="-ui "]{
+    background-color: blue;
+  }
+  div[title="a"].bar.baz#foo[value="b"]>.foo.bar[a="b"]+span~a{
+    background: red;
+    }
+
+  a:visited {
+    background-color: yellow;
+    color: #fff;
+  }
+  </style>
+</head>
+<body>
+  <div class="de-ggod-ui two">one</div>
+  <div class="replace de-go-uiod">Hi, world</div>
+  <div class="gooodde-bbn-ui">Bye</div>
+  <div title="a" class="bar baz" id="foo" value="b">
+    <div class="foo bar" a="b"></div>
+    <span></span>
+    <a href="https://www.google.com" target="_blank">I'm the chosen One</a>
+  </div>
+</body>
+</html>
