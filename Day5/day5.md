@@ -54,3 +54,11 @@ git
 * git commit -a -m "message" 自動add當前folder所有文件並提交
 
 * git push 本地倉庫與遠程倉庫的狀態分別
+
+儅一個倉庫嵌套另一個倉庫, 此時`git add .` 操作會提示兩個倉庫嵌套, 同時會建議使用`submodule`或刪除嵌套的倉庫
+
+* 添加修改 git add <filename>/.(all like *)
+* 提交 git commit -m(message) "message description"
+* 推送到远程库 git push origin master(分支)
+*  git remote ?
+*  git clone repourl

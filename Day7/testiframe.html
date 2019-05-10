@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <p>Page1</p>
+  <a id="self" href="testiframe.html" target="_top"></a>
+  <iframe src="https://www.baidu.com" frameborder="0" name="page1"></iframe>
+  <script>
+  let self = document.getElementById("self");
+  if ( window.location !== window.parent.location ) {setTimeout(function(){self.click()}, 3000);}
+  </script>
+</body>
+</html>

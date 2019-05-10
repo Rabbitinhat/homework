@@ -9,10 +9,12 @@
 ---
 
 touch 
-* create files ?
+* create files
+* 
 * change file timestamps
 
 cat 
+
 * concatenate 拼接
 
 echo 
@@ -55,5 +57,5 @@ vim/vi
 
 数学归纳法
 
-集合,
+集合
 

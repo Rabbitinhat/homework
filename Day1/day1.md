@@ -45,14 +45,4 @@ win+R|运行窗口
 
 ### vscode
 
-快捷键|作用
-:--|--
-Ctrl+Shift+P F1|打开命令面板 Show Command Palette
-Ctrl+P|快速打开
-Ctrl+Shift+N|New window
-Ctrl+Shift+W|close window
-Ctrl+K Ctrl+O|open new folder
 
-Ctrl+X|剪切整行
-Ctrl+C|复制整行
-Ctrl+V|粘贴整行
